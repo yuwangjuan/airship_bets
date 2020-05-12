@@ -139,7 +139,7 @@ export default class App extends Component{
       <div className="main_box">
           <div className="main_left">
             <div className="main_left_head">
-              <p className="main_left_text"><span>第</span><span className="add_red">20200512042</span><span>期:</span><span className="add_blue">10,10,10,10,10,10,10,01,10</span></p>
+              <p className="main_left_text"><span>第</span><span className="add_red">2020051</span><span>期:</span><span className="add_blue">10,10,10</span></p>
               <p className="main_left_time"> <span className="right_time">05:00</span></p>
             </div>
             <div className="main_left_contain_left">
@@ -196,7 +196,9 @@ export default class App extends Component{
       </div>
       </div>
     );
-  }
+  };
+
+
   
 }
 

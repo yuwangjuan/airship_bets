@@ -7,9 +7,13 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.2.2",
+    "lib-flexible": "^0.3.2",
+    "node-sass": "^4.14.1",
+    "postcss-px2rem-exclude": "^0.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "sass-loader": "^8.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
