@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* html,body{
+  width:100%;
+  height:100%;
+} */
+.main_box{
+  margin:1rem;
+  height:calc(100vh - 2rem);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main_left{
+  width:92%;
+  /* background:blue; */
+  display:inline-block;
+  height:calc(100vh - 2rem);
+  /* border:1px solid #afa; */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main_right{
+  width:8%;
+  display:inline-block;
+  height:calc(100vh - 2rem);
+  vertical-align: top;
 }
-
-.App-link {
-  color: #61dafb;
+.main_left_head{
+  width:100%;
+  height:5rem;
+  /* border:1px solid yellow; */
+  font-size: 3rem;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add_red{
+  color:red;
+  padding: 0 0.5rem;
 }
+.add_blue{
+  color:blue;
+  padding-left:0.5rem;
+}
+.main_left_text{
+  text-align:center;
+  width:85%;
+  display:inline-block;
+}
+.main_left_time{
+  width:15%;
+  text-align:right;
+  display:inline-block;
+  color:red;
+}
+.main_left_contain_left{
+    width:30%;
+    height:calc(100vh - 10rem);
+    display:inline-block;
+    vertical-align:top;
+    
+}
+.main_left_contain_right{
+  width:69%;
+  height:calc(100vh - 10rem);
+  display:inline-block;
+  margin-left:1%;
+  
+}
+.tab_left{
+  border:1px solid grey;
+  height:calc(100vh - 10rem);
+ 
+}
+.reward_list{
+  height:2rem;
+  line-height:2rem;
+  
+}
+.format_list{
+  padding-right:5rem;
+  height:3rem;
+}
+.stop_win{
+  color:#0187fb;
+}
+.stop_lose{
+  color:#0187fb;
+  padding-left:1rem;
+}
+.all_get{
+  color:#0187fb;
+  padding: 1rem;
+}
+.get_change{
+  padding-left:2rem;
+}
+.main_right_box{
+  /* border:1px solid #afa; */
+  margin-left:1rem;
+  font-size:3rem;
+}
+.select_box{
+  margin:0.5rem 0;
+  margin-top:-2rem;
+}
+.all_mn{
+  margin-top:-2rem;
+}
+/* .ant-btn{
+  height:2rem !important;
+  line-height: 2rem !important;
+} */
